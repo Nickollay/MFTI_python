@@ -11,13 +11,9 @@ def task_8_29():
             break
     else:
         while True:
-            while not wall_is_on_the_right() and wall_is_beneath():
-
+            while not wall_is_on_the_right():
                 move_right()
                 if not wall_is_above():
-                    break
-
-                if wall_is_on_the_left():
                     break
             if wall_is_on_the_right():
                 break
